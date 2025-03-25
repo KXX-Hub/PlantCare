@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5AED9A2D92D25E0084F5B7 /* PlantCare Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D5AED992D92D25E0084F5B7 /* PlantCare Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D5AED842D92D25E0084F5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5AED722D92D25D0084F5B7;
+			remoteInfo = PlantCare;
+		};
+		3D5AED8E2D92D25E0084F5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5AED722D92D25D0084F5B7;
+			remoteInfo = PlantCare;
+		};
+		3D5AED9B2D92D25E0084F5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5AED982D92D25E0084F5B7;
+			remoteInfo = "PlantCare Watch App";
+		};
+		3D5AEDAC2D92D25F0084F5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5AED982D92D25E0084F5B7;
+			remoteInfo = "PlantCare Watch App";
+		};
+		3D5AEDB62D92D25F0084F5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5AED982D92D25E0084F5B7;
+			remoteInfo = "PlantCare Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D5AEDC22D92D25F0084F5B7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3D5AED9A2D92D25E0084F5B7 /* PlantCare Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D5AED732D92D25D0084F5B7 /* PlantCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5AED832D92D25E0084F5B7 /* PlantCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5AED8D2D92D25E0084F5B7 /* PlantCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5AED992D92D25E0084F5B7 /* PlantCare Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlantCare Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5AEDAB2D92D25F0084F5B7 /* PlantCare Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlantCare Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5AEDB52D92D25F0084F5B7 /* PlantCare Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlantCare Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D5AED752D92D25D0084F5B7 /* PlantCare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlantCare;
+			sourceTree = "<group>";
+		};
+		3D5AED862D92D25E0084F5B7 /* PlantCareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlantCareTests;
+			sourceTree = "<group>";
+		};
+		3D5AED902D92D25E0084F5B7 /* PlantCareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlantCareUITests;
+			sourceTree = "<group>";
+		};
+		3D5AED9D2D92D25E0084F5B7 /* PlantCare Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PlantCare Watch App";
+			sourceTree = "<group>";
+		};
+		3D5AEDAE2D92D25F0084F5B7 /* PlantCare Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PlantCare Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3D5AEDB82D92D25F0084F5B7 /* PlantCare Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PlantCare Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5AED702D92D25D0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED802D92D25E0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED8A2D92D25E0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED962D92D25E0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDA82D92D25F0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDB22D92D25F0084F5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5AED6A2D92D25D0084F5B7 = {
+			isa = PBXGroup;
+			children = (
+				3D5AED752D92D25D0084F5B7 /* PlantCare */,
+				3D5AED862D92D25E0084F5B7 /* PlantCareTests */,
+				3D5AED902D92D25E0084F5B7 /* PlantCareUITests */,
+				3D5AED9D2D92D25E0084F5B7 /* PlantCare Watch App */,
+				3D5AEDAE2D92D25F0084F5B7 /* PlantCare Watch AppTests */,
+				3D5AEDB82D92D25F0084F5B7 /* PlantCare Watch AppUITests */,
+				3D5AED742D92D25D0084F5B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5AED742D92D25D0084F5B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5AED732D92D25D0084F5B7 /* PlantCare.app */,
+				3D5AED832D92D25E0084F5B7 /* PlantCareTests.xctest */,
+				3D5AED8D2D92D25E0084F5B7 /* PlantCareUITests.xctest */,
+				3D5AED992D92D25E0084F5B7 /* PlantCare Watch App.app */,
+				3D5AEDAB2D92D25F0084F5B7 /* PlantCare Watch AppTests.xctest */,
+				3D5AEDB52D92D25F0084F5B7 /* PlantCare Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5AED722D92D25D0084F5B7 /* PlantCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDC32D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare" */;
+			buildPhases = (
+				3D5AED6F2D92D25D0084F5B7 /* Sources */,
+				3D5AED702D92D25D0084F5B7 /* Frameworks */,
+				3D5AED712D92D25D0084F5B7 /* Resources */,
+				3D5AEDC22D92D25F0084F5B7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5AED9C2D92D25E0084F5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AED752D92D25D0084F5B7 /* PlantCare */,
+			);
+			name = PlantCare;
+			packageProductDependencies = (
+			);
+			productName = PlantCare;
+			productReference = 3D5AED732D92D25D0084F5B7 /* PlantCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5AED822D92D25E0084F5B7 /* PlantCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDC62D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCareTests" */;
+			buildPhases = (
+				3D5AED7F2D92D25E0084F5B7 /* Sources */,
+				3D5AED802D92D25E0084F5B7 /* Frameworks */,
+				3D5AED812D92D25E0084F5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5AED852D92D25E0084F5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AED862D92D25E0084F5B7 /* PlantCareTests */,
+			);
+			name = PlantCareTests;
+			packageProductDependencies = (
+			);
+			productName = PlantCareTests;
+			productReference = 3D5AED832D92D25E0084F5B7 /* PlantCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D5AED8C2D92D25E0084F5B7 /* PlantCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDC92D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCareUITests" */;
+			buildPhases = (
+				3D5AED892D92D25E0084F5B7 /* Sources */,
+				3D5AED8A2D92D25E0084F5B7 /* Frameworks */,
+				3D5AED8B2D92D25E0084F5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5AED8F2D92D25E0084F5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AED902D92D25E0084F5B7 /* PlantCareUITests */,
+			);
+			name = PlantCareUITests;
+			packageProductDependencies = (
+			);
+			productName = PlantCareUITests;
+			productReference = 3D5AED8D2D92D25E0084F5B7 /* PlantCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3D5AED982D92D25E0084F5B7 /* PlantCare Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDBF2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch App" */;
+			buildPhases = (
+				3D5AED952D92D25E0084F5B7 /* Sources */,
+				3D5AED962D92D25E0084F5B7 /* Frameworks */,
+				3D5AED972D92D25E0084F5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AED9D2D92D25E0084F5B7 /* PlantCare Watch App */,
+			);
+			name = "PlantCare Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PlantCare Watch App";
+			productReference = 3D5AED992D92D25E0084F5B7 /* PlantCare Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5AEDAA2D92D25F0084F5B7 /* PlantCare Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDCC2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch AppTests" */;
+			buildPhases = (
+				3D5AEDA72D92D25F0084F5B7 /* Sources */,
+				3D5AEDA82D92D25F0084F5B7 /* Frameworks */,
+				3D5AEDA92D92D25F0084F5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5AEDAD2D92D25F0084F5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AEDAE2D92D25F0084F5B7 /* PlantCare Watch AppTests */,
+			);
+			name = "PlantCare Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PlantCare Watch AppTests";
+			productReference = 3D5AEDAB2D92D25F0084F5B7 /* PlantCare Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D5AEDB42D92D25F0084F5B7 /* PlantCare Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5AEDCF2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch AppUITests" */;
+			buildPhases = (
+				3D5AEDB12D92D25F0084F5B7 /* Sources */,
+				3D5AEDB22D92D25F0084F5B7 /* Frameworks */,
+				3D5AEDB32D92D25F0084F5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5AEDB72D92D25F0084F5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D5AEDB82D92D25F0084F5B7 /* PlantCare Watch AppUITests */,
+			);
+			name = "PlantCare Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PlantCare Watch AppUITests";
+			productReference = 3D5AEDB52D92D25F0084F5B7 /* PlantCare Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5AED6B2D92D25D0084F5B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3D5AED722D92D25D0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3D5AED822D92D25E0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3D5AED722D92D25D0084F5B7;
+					};
+					3D5AED8C2D92D25E0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3D5AED722D92D25D0084F5B7;
+					};
+					3D5AED982D92D25E0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3D5AEDAA2D92D25F0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3D5AED982D92D25E0084F5B7;
+					};
+					3D5AEDB42D92D25F0084F5B7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3D5AED982D92D25E0084F5B7;
+					};
+				};
+			};
+			buildConfigurationList = 3D5AED6E2D92D25D0084F5B7 /* Build configuration list for PBXProject "PlantCare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5AED6A2D92D25D0084F5B7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D5AED742D92D25D0084F5B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5AED722D92D25D0084F5B7 /* PlantCare */,
+				3D5AED822D92D25E0084F5B7 /* PlantCareTests */,
+				3D5AED8C2D92D25E0084F5B7 /* PlantCareUITests */,
+				3D5AED982D92D25E0084F5B7 /* PlantCare Watch App */,
+				3D5AEDAA2D92D25F0084F5B7 /* PlantCare Watch AppTests */,
+				3D5AEDB42D92D25F0084F5B7 /* PlantCare Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5AED712D92D25D0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED812D92D25E0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED8B2D92D25E0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED972D92D25E0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDA92D92D25F0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDB32D92D25F0084F5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5AED6F2D92D25D0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED7F2D92D25E0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED892D92D25E0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AED952D92D25E0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDA72D92D25F0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5AEDB12D92D25F0084F5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5AED852D92D25E0084F5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5AED722D92D25D0084F5B7 /* PlantCare */;
+			targetProxy = 3D5AED842D92D25E0084F5B7 /* PBXContainerItemProxy */;
+		};
+		3D5AED8F2D92D25E0084F5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5AED722D92D25D0084F5B7 /* PlantCare */;
+			targetProxy = 3D5AED8E2D92D25E0084F5B7 /* PBXContainerItemProxy */;
+		};
+		3D5AED9C2D92D25E0084F5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5AED982D92D25E0084F5B7 /* PlantCare Watch App */;
+			targetProxy = 3D5AED9B2D92D25E0084F5B7 /* PBXContainerItemProxy */;
+		};
+		3D5AEDAD2D92D25F0084F5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5AED982D92D25E0084F5B7 /* PlantCare Watch App */;
+			targetProxy = 3D5AEDAC2D92D25F0084F5B7 /* PBXContainerItemProxy */;
+		};
+		3D5AEDB72D92D25F0084F5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5AED982D92D25E0084F5B7 /* PlantCare Watch App */;
+			targetProxy = 3D5AEDB62D92D25F0084F5B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D5AEDBD2D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D5AEDBE2D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3D5AEDC02D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantCare Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PlantCare;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.PlantCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3D5AEDC12D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantCare Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PlantCare;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.PlantCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3D5AEDC42D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantCare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PlantCare;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D5AEDC52D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantCare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PlantCare;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5AEDC72D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantCare";
+			};
+			name = Debug;
+		};
+		3D5AEDC82D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantCare";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5AEDCA2D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlantCare;
+			};
+			name = Debug;
+		};
+		3D5AEDCB2D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.PlantCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlantCare;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5AEDCD2D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k.PlantCare-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantCare Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantCare Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3D5AEDCE2D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k.PlantCare-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantCare Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantCare Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3D5AEDD02D92D25F0084F5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k.PlantCare-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PlantCare Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3D5AEDD12D92D25F0084F5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k.PlantCare-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PlantCare Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5AED6E2D92D25D0084F5B7 /* Build configuration list for PBXProject "PlantCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDBD2D92D25F0084F5B7 /* Debug */,
+				3D5AEDBE2D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDBF2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDC02D92D25F0084F5B7 /* Debug */,
+				3D5AEDC12D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDC32D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDC42D92D25F0084F5B7 /* Debug */,
+				3D5AEDC52D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDC62D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDC72D92D25F0084F5B7 /* Debug */,
+				3D5AEDC82D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDC92D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDCA2D92D25F0084F5B7 /* Debug */,
+				3D5AEDCB2D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDCC2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDCD2D92D25F0084F5B7 /* Debug */,
+				3D5AEDCE2D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5AEDCF2D92D25F0084F5B7 /* Build configuration list for PBXNativeTarget "PlantCare Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5AEDD02D92D25F0084F5B7 /* Debug */,
+				3D5AEDD12D92D25F0084F5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5AED6B2D92D25D0084F5B7 /* Project object */;
+}
