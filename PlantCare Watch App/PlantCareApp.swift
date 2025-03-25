@@ -11,7 +11,11 @@ import SwiftUI
 struct PlantCare_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if #available(watchOS 10.0, *) {
+                WatchContentView()
+            } else {
+                Text("需要 watchOS 10.0 或更新版本")
+            }
         }
     }
 }
