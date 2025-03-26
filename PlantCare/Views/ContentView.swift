@@ -33,13 +33,8 @@ struct AppTheme {
     static let cardBackground = Color(hex: "2A2D31").opacity(0.95)
     
     // 環境自適應顏色
-    @ViewBuilder
-    static func adaptiveBackground(_ colorScheme: ColorScheme) -> some View {
-        if colorScheme == .dark {
-            background
-        } else {
-            Color.white
-        }
+    static func adaptiveBackground(_ colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark ? background : .white
     }
     
     static func adaptiveSurface(_ colorScheme: ColorScheme) -> Color {
